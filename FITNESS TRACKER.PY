@@ -1,5 +1,5 @@
 class FitnessTracker:
-    def _init_(self, name, age, height, weight):
+    def __init__(self, name, age, height, weight):
         self.name = name
         self.age = age
         self.height = height
@@ -70,4 +70,5 @@ while True:
         break
 
     else:
+
         print("Invalid choice! Try again.")
